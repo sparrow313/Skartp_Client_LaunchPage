@@ -18,24 +18,30 @@ section {
   height: 100vh;
   width: 100%;
 }
+.logo img {
+  height: 120px;
+  width: 150px;
+}
 .main_name {
   font-size: 116px;
   font-weight: bolder;
   font-family: Epilogue;
-  color: white;
+  color: whitesmoke;
 }
 
 .tagline {
   font-size: 76px;
   font-weight: bold;
   font-family: Epilogue;
-  color: white;
+  background: linear-gradient(#141e30, #0a3f7a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .description {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: medium;
   font-family: Epilogue;
-  color: white;
+  color: rgb(221, 219, 219);
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -73,7 +79,6 @@ section {
   background-color: white;
   width: 50%;
   height: 60px;
-  border-radius: 10px;
   border: none;
 }
 .emailContainer input {
