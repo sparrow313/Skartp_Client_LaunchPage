@@ -62,17 +62,11 @@ section {
 
 .lastPart {
   width: 80%;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 70px;
   font-size: 40px;
   color: white;
   font-weight: 700;
-}
-
-.connectLine {
-  font-size: 18px;
-  color: #c6bcbc;
-  margin-bottom: 100px;
 }
 
 .emailContainer {
@@ -111,7 +105,7 @@ section {
   padding-right: 10rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   background-color: black;
   color: white;
   font-size: 25px;
@@ -119,7 +113,7 @@ section {
   border: none;
   font-weight: 600;
   font-family: Epilogue;
-  margin-top: 50px;
+  margin-top: 10px;
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
@@ -129,11 +123,18 @@ section {
 }
 
 .checkboxLine {
-  color: rgb(41, 40, 39);
+  color: rgb(207, 206, 205);
   font-size: 16px;
   font-weight: 500;
   font-family: Epilogue;
 }
+
+.connectLine {
+  font-size: 18px;
+  color: #c6bcbc;
+  margin-bottom: 50px;
+}
+
 .entreprenuer {
   padding-left: 10rem;
   padding-right: 10rem;
@@ -147,7 +148,7 @@ section {
   border: none;
   font-weight: 600;
   font-family: Epilogue;
-  margin-top: 100px;
+  margin-top: 0px;
   border-radius: 10px;
   text-decoration: none;
 }
@@ -227,7 +228,7 @@ section {
     padding-right: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     font-size: 16px;
   }
   .investor {
