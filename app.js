@@ -23,10 +23,10 @@ const response = document.getElementById("response");
 Button.addEventListener("click", function () {
   const email = emailInput.value;
   if (validateEmail(email)) {
-    response.innerHTML = "Hiya Cowboy, this email will work for us 🤠";
-    Button.innerHTML = "Thank you";
+    response.innerHTML = "You have registered successfuly";
+    Button.innerHTML = "You will be notified";
   } else {
-    response.innerHTML = "Sorry, this email is not cool enough 😩";
+    response.innerHTML = "Please enter a valid Email id";
   }
 });
 
