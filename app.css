@@ -44,6 +44,7 @@ section {
   color: rgb(221, 219, 219);
   padding-left: 40px;
   padding-right: 40px;
+  margin-bottom: 100px;
 }
 
 .middleSection {
@@ -62,7 +63,7 @@ section {
 
 .lastPart {
   width: 80%;
-  margin-top: 150px;
+  margin-top: 250px;
   margin-bottom: 70px;
   font-size: 40px;
   color: white;
@@ -244,7 +245,7 @@ section {
     padding-right: 3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     font-size: 16px;
     cursor: pointer;
   }
